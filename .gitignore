@@ -26,3 +26,23 @@ replay_pid*
 
 # Excepto nuestra carpeta lib donde guardamos la librería del curso
 !lib/algs4.jar
+
+# Carpetas de construcción de Maven
+target/
+
+# Archivos de IntelliJ IDEA
+.idea/
+*.iml
+
+# Archivos de Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
