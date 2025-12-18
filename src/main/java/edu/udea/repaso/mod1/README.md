@@ -8,3 +8,5 @@ Estos ejercicios son tomados del libro **Computer Science: An Interdisciplinary 
 
 > [!important]
 > Para estos dos ejercicios, use solo características de Java use solo caracteristicas basicas de java.
+
+**Diapositivas**: [[pdf]](https://introcs.cs.princeton.edu/java/lectures/keynote/CS.1.Basics.pdf)
