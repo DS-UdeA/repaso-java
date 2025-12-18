@@ -27,7 +27,7 @@ Para compilar y ejecutar el código sin depender de un entorno visual, utilice l
 2. Ejecutar la prueba de verificación:
 
    ```
-   mvn exec:java -Dexec.mainClass="edu.udea.repaso.cap1_fundamentos.TestAlgs4"
+   mvn exec:java -Dexec.mainClass="edu.udea.repaso.tests.TestAlgs4"
    ```
 
 ### Importación en entornos de desarrollo (IDE)
@@ -55,4 +55,11 @@ public class TestAlgs4 {
 }
 ```
 
+
+## Referencias
+
+* https://www.cs.princeton.edu/courses/archive/fall24/cos109/
+* https://www.cs.princeton.edu/courses/archive/fall25/cos126/
+* https://www.cs.princeton.edu/courses/archive/fall25/cos226/
+* https://github.com/stasbutuzov/Computer-Science-Programming-with-a-Purpose?tab=readme-ov-file
 
