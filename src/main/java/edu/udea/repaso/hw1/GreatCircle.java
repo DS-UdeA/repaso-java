@@ -10,6 +10,6 @@ public class GreatCircle {
         double t1 = Math.pow(Math.sin(Math.toRadians((x2 - x1)/2)),2);
         double t2 = Math.cos(Math.toRadians(x1))*Math.cos(Math.toRadians(x2))*Math.pow(Math.sin(Math.toRadians((y2 - y1)/2)),2);
         double distance = 2*R*Math.asin(Math.sqrt(t1 + t2));
-        System.out.println(distance + "Kilometers");
+        System.out.println(distance + " kilometers");
     }
 }

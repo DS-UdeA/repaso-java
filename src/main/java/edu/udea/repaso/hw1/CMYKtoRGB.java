@@ -2,16 +2,16 @@ package edu.udea.repaso.hw1;
 
 public class CMYKtoRGB {
     public static void main(String[] args) {
-        double C = Double.parseDouble(args[0]);
-        double M = Double.parseDouble(args[1]);
-        double Y = Double.parseDouble(args[2]);
-        double K = Double.parseDouble(args[3]);
-        double W = 1 - K;
-        int R = (int) (255 * W * (1 - C));
-        int G = (int) (255 * W * (1 - M));
-        int B = (int) (255 * W * (1 - Y));
-        System.out.println("red   = " + R);
-        System.out.println("green = " + G);
-        System.out.println("blue  = " + B);
+        double cyan = Double.parseDouble(args[0]);
+        double magenta = Double.parseDouble(args[1]);
+        double yellow = Double.parseDouble(args[2]);
+        double black = Double.parseDouble(args[3]);
+        double white = 1 - black;
+        int red = (int) (255 * white * (1 - cyan));
+        int green = (int) (255 * white * (1 - magenta));
+        int blue = (int) (255 * white * (1 - yellow));
+        System.out.println("red   = " + red);
+        System.out.println("green = " + green);
+        System.out.println("blue  = " + blue);
     }
 }
